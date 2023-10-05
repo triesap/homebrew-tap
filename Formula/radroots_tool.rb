@@ -6,6 +6,6 @@ class RadrootsTool < Formula
     version "0.0.1"
   
     def install
-      bin.install "radroots_tool"
+      bin.install "target/aarch64-apple-darwin/release/radroots_tool"
     end
   end
